@@ -32,7 +32,7 @@ Issues = "https://github.com/mohitshrestha/python-project-hatch/issues"
 Source = "https://github.com/mohitshrestha/python-project-hatch"
 
 [tool.hatch.version]
-path = "src/python_project_hatch/__about__.py"
+path = "src/python_project_hatch/__version__.py"
 
 [tool.hatch.envs.types]
 extra-dependencies = [
@@ -46,7 +46,7 @@ source_pkgs = ["python_project_hatch", "tests"]
 branch = true
 parallel = true
 omit = [
-  "src/python_project_hatch/__about__.py",
+  "src/python_project_hatch/__version__.py",
 ]
 
 [tool.coverage.paths]
